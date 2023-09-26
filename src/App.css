@@ -1,51 +1,66 @@
-
 .App {
-  background-color: #9dc2ef;
+  background-color: #b8d2f2;
   border: 4px solid black;
+  height: 120vh; 
   width: 90vw;
-  height: 150vh;
-  /* display: flex; */
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 #video {
-  text-align: center;
-  justify-content: center;
-  
-  /* position: absolute; */
+  border: 4px solid rgb(37, 35, 35);
+  background-image: url('http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/BigBuckBunny.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:48vh; 
+  width: 48vw;
+  margin: auto;
+  margin-bottom: 30px;
 }
 
 .videoFrame {
-  /* border: 4px solid black; */
+  /* border: 4px solid rgb(197, 194, 150);  */
   text-align: center;
   justify-content: center;
-  /* display: flex;   */
-  margin: 40px;
-  /* padding: 80px; */
-  padding-left: 180px; 
+  display:grid;
+  padding: 60px;
+  
 }
 
 .like-it {
-  text-align: center;
+  /* border: 4px solid rgb(161, 197, 150);  */
+  /* margin: 30px; */
+  background-color: rgb(206, 181, 198);
+  width: 360px;
+  text-align: end;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  /* padding-bottom: 10px; */
+
+  
 }
 
-#sub {
-  margin: 20px;
+
+
+.footer {
+  /* border: 4px solid rgb(194, 48, 48);  */
+  padding: 120px; 
 }
+
 .controls button {
-  
-  background-color: #2d6eb8;
+  /* background-color: #2d6eb8; */
+  background-color: rgb(176, 131, 156);
   color: #fff;
   font-size:14px;
   border: none;
-  cursor: pointer;
-  margin-right: 20px;
-  margin-top: 20px;
-
+  cursor:pointer;
+  margin: 30px;
+  
 }
 
 .controls button:hover {
-  color: rgb(241, 239, 239);
-  background-color: rgb(26, 66, 126);
+  color: rgb(247, 241, 241);
+  background-color: rgb(249, 155, 219);
 }
 
 .controls input {
@@ -53,6 +68,6 @@
 }
 
 #progress{
-  width: 80%;
+  width: 100%;
 }
 

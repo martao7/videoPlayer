@@ -2,6 +2,7 @@ import { useState } from "react";
 import React from "react";
 import "./App.css";
 import VideoPlayer from "./components/VideoPlayer";
+import Footer from "./components/Footer";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -13,21 +14,12 @@ function App() {
     <>
       <div className="App">
         <div className="videoFrame">
-          <h1>React Video Player</h1>
+          <h1>- Big Buck Bunny -</h1>
           <div id="video">
             <VideoPlayer videoUrl={videoUrl} />
           </div>
         </div>
-
-        <div className="like-it">
-          <p>If you like this video, click here:</p>
-          <button onClick={() => setCount((count) => count + 1)}>
-            Like {count}
-          </button>
-          <button id="sub" onClick>
-            Subscribe
-          </button>
-        </div>
+        <div className="footer">{/* <Footer /> */}</div>
       </div>
     </>
   );
