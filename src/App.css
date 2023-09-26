@@ -1,0 +1,58 @@
+
+.App {
+  background-color: #9dc2ef;
+  border: 4px solid black;
+  width: 90vw;
+  height: 150vh;
+  /* display: flex; */
+}
+
+#video {
+  text-align: center;
+  justify-content: center;
+  
+  /* position: absolute; */
+}
+
+.videoFrame {
+  /* border: 4px solid black; */
+  text-align: center;
+  justify-content: center;
+  /* display: flex;   */
+  margin: 40px;
+  /* padding: 80px; */
+  padding-left: 180px; 
+}
+
+.like-it {
+  text-align: center;
+}
+
+#sub {
+  margin: 20px;
+}
+.controls button {
+  
+  background-color: #2d6eb8;
+  color: #fff;
+  font-size:14px;
+  border: none;
+  cursor: pointer;
+  margin-right: 20px;
+  margin-top: 20px;
+
+}
+
+.controls button:hover {
+  color: rgb(241, 239, 239);
+  background-color: rgb(26, 66, 126);
+}
+
+.controls input {
+  width: 100%;
+}
+
+#progress{
+  width: 80%;
+}
+
