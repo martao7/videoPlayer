@@ -3,13 +3,13 @@ import React from "react";
 const VideoPicture = () => {
   return (
     <div className="video-picture">
-      <p>Click here:</p>
-
       <img
         src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/BigBuckBunny.jpg"
         className="picture1"
         alt=""
+        width="30%"
       />
+      <h1>- Big Buck Bunny -</h1>
     </div>
   );
 };
