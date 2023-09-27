@@ -35,7 +35,11 @@ const VideoPlayer = ({ videoUrl }) => {
           controls={false}
         />
         <div className="controls">
+          {/* //play oder pause */}
+          {/* <button onClick={handlePlayPause}>{isPlaying}</button> */}
           <button onClick={handlePlayPause}>{isPlaying ? "||" : "Play"}</button>
+
+          {/* //laut oder mute */}
           <button onClick={handleMuteUnmute}>
             {isMuted ? "Unmute" : "Mute"}
           </button>
